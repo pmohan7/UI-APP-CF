@@ -55,7 +55,9 @@
                                             id="Variant"
                                             enabled="false"
                                             items="{
-                                                path: '/VariantValueHelp'
+                                                path: '/VariantValueHelp',
+                                                sorter: {path : 'Variant'},
+                                                length: 5000
                                             }">
                                             <core:Item key="{Variant}" text="{Variant}" />
                                     </ComboBox>
